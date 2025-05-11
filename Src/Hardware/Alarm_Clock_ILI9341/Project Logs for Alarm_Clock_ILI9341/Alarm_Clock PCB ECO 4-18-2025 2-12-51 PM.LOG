@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=R9 Old Footprint=RES 1/2W New Footprint=RES-SM-0805
+Change Component Footprint: Designator=R13 Old Footprint=RES 1/2W New Footprint=RES-SM-0805
+Change Component Footprint: Designator=R16 Old Footprint=RES 1/2W New Footprint=RES-SM-0805
+Change Component Footprint: Designator=R17 Old Footprint=RES 1/2W New Footprint=RES-SM-0805
+Change Component Comment : Designator=R9 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R13 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R16 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R17 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Added Member To Class: ClassName=Alarm_Clock Member=Component U3 DS3231 RTC

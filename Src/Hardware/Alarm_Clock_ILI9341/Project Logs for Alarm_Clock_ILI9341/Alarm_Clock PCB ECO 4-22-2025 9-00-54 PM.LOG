@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=PA6 Pin=U2-2
+Removed Pin From Net: NetName=PA5 Pin=U2-5
+Add Differential Pair: Number of nets in differential pair NetJ4_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ4_3 is 1 instead of 2

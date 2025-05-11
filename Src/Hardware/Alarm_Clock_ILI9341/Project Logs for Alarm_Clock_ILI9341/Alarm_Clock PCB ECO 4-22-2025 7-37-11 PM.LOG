@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=RESET Pin=S1-1
+Removed Pin From Net: NetName=+3.3V Pin=S1-2
+Removed Pin From Net: NetName=BOOT0 Pin=S4-1
+Removed Pin From Net: NetName=+3.3V Pin=S4-2
+Removed Member From Class: ClassName=Alarm_Clock Member=S6
+Removed Member From Class: ClassName=Alarm_Clock Member=S7
+Change Component Designator: OldDesignator=S2 NewDesignator=S1
+Change Component Designator: OldDesignator=S3 NewDesignator=S2
+Change Component Designator: OldDesignator=S5 NewDesignator=S3
+Change Component Designator: OldDesignator=S6 NewDesignator=S4
+Change Component Designator: OldDesignator=S7 NewDesignator=S5
+Added Component: Designator=B1(BUTTON SMD 2 PIN)
+Added Component: Designator=B2(BUTTON SMD 2 PIN)
+Added Pin To Net: NetName=RESET Pin=B1-1
+Added Pin To Net: NetName=+3.3V Pin=B1-2
+Added Pin To Net: NetName=BOOT0 Pin=B2-1
+Added Pin To Net: NetName=+3.3V Pin=B2-2
+Add Differential Pair: Number of nets in differential pair NetJ4_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ4_3 is 1 instead of 2
+Added Member To Class: ClassName=Alarm_Clock Member=Component B1 Button SMD 2 Pin 3x4mm
+Added Member To Class: ClassName=Alarm_Clock Member=Component B2 Button SMD 2 Pin 3x4mm

@@ -1,0 +1,34 @@
+Removed Pin From Net: NetName=PA4 Pin=U2-4
+Removed Pin From Net: NetName=PB10 Pin=U2-10
+Removed Pin From Net: NetName=PB11 Pin=U2-11
+Removed Pin From Net: NetName=PB12 Pin=U3-25
+Removed Pin From Net: NetName=PB13 Pin=U3-26
+Removed Pin From Net: NetName=PB14 Pin=U3-27
+Removed Pin From Net: NetName=PB15 Pin=U3-28
+Added Pin To Net: NetName=PA4 Pin=U2-1
+Added Pin To Net: NetName=PB1 Pin=U2-10
+Added Pin To Net: NetName=PB10 Pin=U2-11
+Added Pin To Net: NetName=PB1 Pin=U3-19
+Added Pin To Net: NetName=MISO_SPI1 Pin=U2-2
+Added Pin To Net: NetName=MISO_SPI1 Pin=U3-16
+Added Net: Name=MISO_SPI1
+Added Pin To Net: NetName=MISO_SPI2 Pin=U2-6
+Added Pin To Net: NetName=MISO_SPI2 Pin=U3-27
+Added Net: Name=MISO_SPI2
+Added Pin To Net: NetName=MOSI_SPI1 Pin=U2-3
+Added Pin To Net: NetName=MOSI_SPI1 Pin=U3-17
+Added Net: Name=MOSI_SPI1
+Added Pin To Net: NetName=MOSI_SPI2 Pin=U2-9
+Added Pin To Net: NetName=MOSI_SPI2 Pin=U3-28
+Added Net: Name=MOSI_SPI2
+Added Pin To Net: NetName=PB0 Pin=U2-4
+Added Pin To Net: NetName=PB0 Pin=U3-18
+Added Net: Name=PB0
+Added Pin To Net: NetName=SCK_SPI1 Pin=U2-5
+Added Pin To Net: NetName=SCK_SPI1 Pin=U3-15
+Added Net: Name=SCK_SPI1
+Added Pin To Net: NetName=SCK_SPI2 Pin=U2-8
+Added Pin To Net: NetName=SCK_SPI2 Pin=U3-26
+Added Net: Name=SCK_SPI2
+Add Differential Pair: Number of nets in differential pair NetJ4_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ4_3 is 1 instead of 2

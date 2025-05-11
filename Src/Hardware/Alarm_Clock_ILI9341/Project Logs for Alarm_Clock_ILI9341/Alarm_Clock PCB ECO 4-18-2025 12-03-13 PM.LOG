@@ -1,0 +1,73 @@
+Change Component Designator: OldDesignator=D8 NewDesignator=D7
+Change Component Designator: OldDesignator=D9 NewDesignator=D8
+Change Component Designator: OldDesignator=D10 NewDesignator=D9
+Change Component Designator: OldDesignator=D11 NewDesignator=D10
+Change Component Designator: OldDesignator=F? NewDesignator=F1
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Component Designator: OldDesignator=R? NewDesignator=R2
+Change Component Designator: OldDesignator=R? NewDesignator=R3
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=R? NewDesignator=R5
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change Component Designator: OldDesignator=R? NewDesignator=R7
+Change Component Designator: OldDesignator=R? NewDesignator=R8
+Change Component Designator: OldDesignator=R? NewDesignator=R10
+Change Component Designator: OldDesignator=R? NewDesignator=R11
+Change Component Designator: OldDesignator=R? NewDesignator=R12
+Change Component Designator: OldDesignator=R? NewDesignator=R14
+Change Component Designator: OldDesignator=R? NewDesignator=R15
+Add Pin To Net: Unknown Pin: Pin U1-1
+Add Pin To Net: Unknown Pin: Pin U1-2
+Add Pin To Net: Unknown Pin: Pin U1-3
+Add Pin To Net: Unknown Pin: Pin U1-4
+Add Pin To Net: Unknown Pin: Pin U1-5
+Add Pin To Net: Unknown Pin: Pin U1-6
+Add Pin To Net: Unknown Pin: Pin U1-7
+Add Pin To Net: Unknown Pin: Pin U1-8
+Add Pin To Net: Unknown Pin: Pin U1-9
+Add Pin To Net: Unknown Pin: Pin U1-10
+Add Pin To Net: Unknown Pin: Pin U1-11
+Add Pin To Net: Unknown Pin: Pin U1-12
+Add Pin To Net: Unknown Pin: Pin U1-13
+Add Pin To Net: Unknown Pin: Pin U1-14
+Add Pin To Net: Unknown Pin: Pin U2-3
+Add Pin To Net: Unknown Pin: Pin U2-4
+Add Pin To Net: Unknown Pin: Pin U2-5
+Add Pin To Net: Unknown Pin: Pin U2-6
+Add Pin To Net: Unknown Pin: Pin U5-1
+Add Pin To Net: Unknown Pin: Pin U5-3
+Add Pin To Net: Unknown Pin: Pin U6-45
+Add Pin To Net: Unknown Pin: Pin U6-46
+Add Pin To Net: Unknown Pin: Pin U6-48
+Change Net Name : Old Net Name=NetD8_1 New Net Name=NetD7_1
+Change Net Name : Old Net Name=NetD9_1 New Net Name=NetD8_1
+Change Net Name : Old Net Name=NetD10_1 New Net Name=NetD9_1
+Change Net Name : Old Net Name=NetD11_1 New Net Name=NetD10_1
+Change Net Name : Old Net Name=NetR?_1 New Net Name=NetR15_1
+Added Pin To Net: NetName=NetR8_1 Pin=R8-1
+Added Pin To Net: NetName=NetR8_1 Pin=U4-1
+Added Net: Name=NetR8_1
+Added Pin To Net: NetName=NetR10_1 Pin=R10-1
+Added Net: Name=NetR10_1
+Added Pin To Net: NetName=NetR12_1 Pin=R12-1
+Added Pin To Net: NetName=NetR12_1 Pin=U7-1
+Added Net: Name=NetR12_1
+Added Pin To Net: NetName=NetR14_1 Pin=R14-1
+Added Pin To Net: NetName=NetR14_1 Pin=U9-1
+Added Net: Name=NetR14_1
+Added Member To Class: ClassName=Alarm_Clock Member=Component R1 RESISTOR SMD
+Added Member To Class: ClassName=Alarm_Clock Member=Component R3 RESISTOR SMD
+Added Member To Class: ClassName=Alarm_Clock Member=Component R4 RESISTOR SMD
+Added Member To Class: ClassName=Alarm_Clock Member=Component R5 RESISTOR SMD
+Added Member To Class: ClassName=Alarm_Clock Member=Component R6 RESISTOR SMD
+Added Member To Class: ClassName=Alarm_Clock Member=Component R7 RESISTOR SMD
+Added Member To Class: ClassName=Alarm_Clock Member=Component R8 RESISTOR SMD
+Added Member To Class: ClassName=Alarm_Clock Member=Component R10 RESISTOR SMD
+Added Member To Class: ClassName=Alarm_Clock Member=Component R11 RESISTOR SMD
+Added Member To Class: ClassName=Alarm_Clock Member=Component R12 RESISTOR SMD
+Added Member To Class: ClassName=Alarm_Clock Member=Component R14 RESISTOR SMD
+Added Member To Class: ClassName=Alarm_Clock Member=Component R15 RESISTOR SMD
+Add Class Member: Failed to add class member : Component U1 ILI9341
+Add Class Member: Failed to add class member : Component U2 DS3231 RTC
+Add Class Member: Failed to add class member : Component U5 PIR
+Add Class Member: Failed to add class member : Component U6 DHT11

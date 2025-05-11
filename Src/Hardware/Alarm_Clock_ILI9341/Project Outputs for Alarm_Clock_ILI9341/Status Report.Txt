@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Alarm_Clock_ILI9341.PrjPcb]
+   Generated File[Alarm_Clock-RoundHoles.TXT]
+   Generated File[Alarm_Clock-SlotHoles.TXT]
+   Generated File[Alarm_Clock.LDP]
+   Generated File[Alarm_Clock.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 10:20:30 PM On 4/23/2025

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=SWCLK Pin=SWD1-3
+Removed Pin From Net: NetName=+3.3V Pin=SWD1-4
+Added Pin To Net: NetName=+3.3V Pin=SWD1-3
+Added Pin To Net: NetName=SWCLK Pin=SWD1-4
+Add Differential Pair: Number of nets in differential pair NetJ4_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ4_3 is 1 instead of 2

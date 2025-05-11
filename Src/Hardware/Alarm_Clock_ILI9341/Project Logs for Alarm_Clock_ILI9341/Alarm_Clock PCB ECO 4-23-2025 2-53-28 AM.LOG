@@ -1,0 +1,3 @@
+Change Net Color : Old Net Color=RGB(110, 110, 255) New Net Color=Default
+Add Differential Pair: Number of nets in differential pair NetJ4_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ4_3 is 1 instead of 2

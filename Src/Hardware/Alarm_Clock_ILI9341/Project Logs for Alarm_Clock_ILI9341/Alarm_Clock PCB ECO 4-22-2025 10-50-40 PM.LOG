@@ -1,0 +1,8 @@
+Added Component: Designator=C17(CAP-SM-0805)
+Add component (AddParameter): Name = "Value"; Value = "10nF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3V Pin=C17-1
+Added Pin To Net: NetName=+3.3V Pin=C17-2
+Added Pin To Net: NetName=PB11 Pin=U2-12
+Add Differential Pair: Number of nets in differential pair NetJ4_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ4_3 is 1 instead of 2
+Added Member To Class: ClassName=Alarm_Clock Member=Component C17 Cap Non-Pol SMD

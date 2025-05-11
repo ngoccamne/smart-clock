@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=+3.3V Pin=C7-1
+Removed Pin From Net: NetName=+3.3V Pin=C13-1
+Removed Pin From Net: NetName=GND Pin=R2-1
+Removed Pin From Net: NetName=GND Pin=R3-1
+Removed Pin From Net: NetName=+3.3V Pin=S1-2
+Removed Pin From Net: NetName=+3.3V Pin=S2-2
+Removed Member From Class: ClassName=Alarm_Clock Member=C7
+Removed Member From Class: ClassName=Alarm_Clock Member=C13
+Removed Member From Class: ClassName=Alarm_Clock Member=R2
+Removed Member From Class: ClassName=Alarm_Clock Member=R3
+Removed Member From Class: ClassName=Alarm_Clock Member=S1
+Removed Member From Class: ClassName=Alarm_Clock Member=S2
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 110, 255)
+Add Differential Pair: Number of nets in differential pair NetJ4_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ4_3 is 1 instead of 2

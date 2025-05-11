@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=PC14 Pin=U3-3
+Added Pin To Net: NetName=PC14 Pin=U7-2
+Added Net: Name=PC14
+Add Differential Pair: Number of nets in differential pair NetJ4_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ4_3 is 1 instead of 2

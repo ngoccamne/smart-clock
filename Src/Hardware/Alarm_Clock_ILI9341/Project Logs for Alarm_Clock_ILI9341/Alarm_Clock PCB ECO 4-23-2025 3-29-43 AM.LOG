@@ -1,0 +1,9 @@
+Added Pin To Net: NetName=+12V Pin=AMS1-3
+Added Pin To Net: NetName=+12V Pin=C9-2
+Added Pin To Net: NetName=+12V Pin=C10-2
+Added Pin To Net: NetName=+12V Pin=F1-2
+Added Pin To Net: NetName=+12V Pin=U1-4
+Added Pin To Net: NetName=+12V Pin=U4-5
+Change Net Name : Old Net Name=+12V New Net Name=+5V
+Add Differential Pair: Number of nets in differential pair NetJ4_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ4_3 is 1 instead of 2

@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=PB12 Pin=U1-4
+Removed Pin From Net: NetName=PA4 Pin=U1-12
+Added Pin To Net: NetName=PA4 Pin=U1-4
+Added Pin To Net: NetName=PB12 Pin=U1-12
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 255, 110)
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=RGB(110, 110, 255)
