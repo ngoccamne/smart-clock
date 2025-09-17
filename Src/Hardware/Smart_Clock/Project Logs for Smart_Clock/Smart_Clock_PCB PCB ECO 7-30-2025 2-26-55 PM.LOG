@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=DP Pin=SW1-2
+Removed Pin From Net: NetName=DN Pin=SW1-3
+Added Pin To Net: NetName=DN Pin=SW1-2
+Added Pin To Net: NetName=DP Pin=SW1-3
+Add Differential Pair: Number of nets in differential pair DN is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair DP is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ1_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ1_3 is 1 instead of 2

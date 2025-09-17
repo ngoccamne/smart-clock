@@ -1,0 +1,14 @@
+Added Component: Designator=U6(HEADER 9 PIN)
+Added Pin To Net: NetName=+3.3V Pin=U6-7
+Added Pin To Net: NetName=Net*1_30 Pin=U6-8
+Added Pin To Net: NetName=Net*1_37 Pin=U6-9
+Added Pin To Net: NetName=Net*1_9 Pin=U6-10
+Added Pin To Net: NetName=Net*1_10 Pin=U6-11
+Added Pin To Net: NetName=Net*1_29 Pin=U6-12
+Added Pin To Net: NetName=GND Pin=U6-13
+Added Pin To Net: NetName=+3.3V Pin=U6-14
+Change Net Name : Old Net Name=NetB*1_2 New Net Name=NetB5_2
+Add Differential Pair: Number of nets in differential pair DN is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair DP is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ1_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ1_3 is 1 instead of 2

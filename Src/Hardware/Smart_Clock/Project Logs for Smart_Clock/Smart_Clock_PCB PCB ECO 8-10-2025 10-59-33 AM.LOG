@@ -1,0 +1,12 @@
+Removed Member From Class: ClassName=POWER_SUPPLY Member=C24
+Added Component: Designator=U7(header 6 pin)
+Added Pin To Net: NetName=NetR4_2 Pin=U7-3
+Added Pin To Net: NetName=NetR3_2 Pin=U7-4
+Added Pin To Net: NetName=+3.3V Pin=U7-5
+Added Pin To Net: NetName=GND Pin=U7-6
+Add Differential Pair: Number of nets in differential pair DN is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair DP is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ1_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ1_3 is 1 instead of 2
+Added Member To Class: ClassName=POWER_SUPPLY Member=Component C25 Cap Non-Pol SMD
+Added Member To Class: ClassName=PERIPHERAL Member=Component U7 DS3231 RTC

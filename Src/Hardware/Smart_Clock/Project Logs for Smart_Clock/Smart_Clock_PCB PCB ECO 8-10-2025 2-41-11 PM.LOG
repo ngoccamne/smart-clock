@@ -1,0 +1,16 @@
+Added Component: Designator=U8(Header 4 Pin)
+Added Component: Designator=U9(Header 3 Pin)
+Added Pin To Net: NetName=+3.3V Pin=U8-1
+Added Pin To Net: NetName=NetR11_1 Pin=U8-2
+Added Pin To Net: NetName=GND Pin=U8-4
+Added Pin To Net: NetName=+3.3V Pin=U9-1
+Added Pin To Net: NetName=NetR13_1 Pin=U9-2
+Added Pin To Net: NetName=GND Pin=U9-3
+Add Differential Pair: Number of nets in differential pair DN is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair DP is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ1_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ1_3 is 1 instead of 2
+Added Member To Class: ClassName=STM32 Member=Component D1 LED SMD
+Added Member To Class: ClassName=ESP32 Member=Component D2 LED SMD
+Added Member To Class: ClassName=PERIPHERAL Member=Component U8 DHT11_4PIN
+Added Member To Class: ClassName=PERIPHERAL Member=Component U9 PIR

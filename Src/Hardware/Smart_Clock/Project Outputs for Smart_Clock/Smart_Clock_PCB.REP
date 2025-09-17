@@ -1,0 +1,529 @@
+*************************************************************
+FileName = Smart_Clock_PCB.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Layer
+      File : Smart_Clock_PCB_Copper_Signal_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Smart_Clock_PCB_Copper_Signal_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D36
+    D37
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : Smart_Clock_PCB_Pads_Bot.gbr
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : Smart_Clock_PCB_Pads_Top.gbr
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Smart_Clock_PCB_Paste_Bot.gbr
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : Smart_Clock_PCB_Legend_Bot.gbr
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D56
+    D57
+    D58
+    D59
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : Smart_Clock_PCB_Soldermask_Bot.gbr
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : Smart_Clock_PCB_Legend_Top.gbr
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D56
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : Smart_Clock_PCB_Paste_Top.gbr
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : Smart_Clock_PCB_Soldermask_Top.gbr
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : Smart_Clock_PCB_Keep-out.gbr
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : Smart_Clock_PCB_Top_Courtyard.gbr
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D109
+    D110
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 2
+      File : Smart_Clock_PCB_Mechanical_2.gbr
+
+    Adding Layer      : Mechanical 2
+
+
+Used DCodes :
+    D110
+    D111
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : Smart_Clock_PCB_Bottom_3D_Body.gbr
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : Smart_Clock_PCB_Top_Component_Center.gbr
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D109
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 8
+      File : Smart_Clock_PCB_Mechanical_8.gbr
+
+    Adding Layer      : Mechanical 8
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : Smart_Clock_PCB_Bottom_Courtyard.gbr
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : Smart_Clock_PCB_Mechanical_1.gbr
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D56
+    D77
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : Smart_Clock_PCB_Top_3D_Body.gbr
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D110
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : Smart_Clock_PCB_Bottom_Component_Center.gbr
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : Smart_Clock_PCB_Mechanical_15.gbr
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D109
+    D110
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : Smart_Clock_PCB_Mechanical_13.gbr
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D56
+    D74
+    D77
+    D110
+    D112
+    D113
+*************************************************************
+
+*************************************************************
+Generating : Top Component Outline
+      File : Smart_Clock_PCB_Top_Component_Outline.gbr
+
+    Adding Layer      : Top Component Outline
+
+
+Used DCodes :
+    D81
+    D110
+*************************************************************
+
+*************************************************************
+Generating : Bottom Designator
+      File : Smart_Clock_PCB_Bottom_Designator.gbr
+
+    Adding Layer      : Bottom Designator
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Designator
+      File : Smart_Clock_PCB_Top_Designator.gbr
+
+    Adding Layer      : Top Designator
+
+
+Used DCodes :
+    D114
+    D115
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Outline
+      File : Smart_Clock_PCB_Bottom_Component_Outline.gbr
+
+    Adding Layer      : Bottom Component Outline
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Profile
+      File : Smart_Clock_PCB_Profile.gbr
+
+
+Used DCodes :
+    D116
+*************************************************************
+

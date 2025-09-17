@@ -1,0 +1,28 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Smart_Clock_PCB.PcbDoc   8/14/2025  10:14:37 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Smart_Clock_PCB-RoundHoles.TXT
+ASCII SlotHoles File : Smart_Clock_PCB-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             12        PTH        0.67inch (16.96mm)
+T2      12mil (0.3mm)                                             Round             271       PTH        40.53inch (1029.52mm)
+T3      16mil (0.4mm)                                             Round             16        PTH        10.34inch (262.68mm)
+T4      22mil (0.55mm)                                            Slot              2         PTH        0.66inch (16.83mm)
+T5      24mil (0.6mm)                                             Round             1         PTH        0.00inch (0.00mm)
+T6      32mil (0.8mm)                                             Round             8         PTH        1.20inch (30.48mm)
+T7      33mil (0.85mm)                                            Slot              2         PTH        0.63inch (16.02mm)
+T8      36mil (0.914mm)                                           Round             2         PTH        0.28inch (7.08mm)
+T9      39mil (1mm)                                               Round             2         PTH        0.20inch (5.14mm)
+T10     43mil (1.1mm)                                             Round             16        PTH        3.91inch (99.35mm)
+T11     47mil (1.2mm)                                             Round             36        PTH        5.77inch (146.59mm)
+T12     51mil (1.3mm)                                             Round             10        PTH        1.58inch (40.23mm)
+T13     118mil (3mm)                                              Round             4         PTH        11.97inch (304.08mm)
+T14     32mil (0.8mm)                                             Round             2         NPTH       0.20inch (5.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              384
+
+Total Processing Time (hh:mm:ss) : 00:00:00

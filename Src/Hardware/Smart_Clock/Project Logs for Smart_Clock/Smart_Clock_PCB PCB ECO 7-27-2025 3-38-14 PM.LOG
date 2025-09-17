@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=OSC_OUT Pin=Y1-2
+Change Component Footprint: Designator=Y1 Old Footprint=WE-XTAL_HC49/4HSMX New Footprint=WE-XTAL_CFPX-180
+Change component parameters: Designator = "Y1" ("Y1"); Footprint = "WE-XTAL_HC49/4HSMX"; UniqueID = "\YTDAILQP" ("\YTDAILQP")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.com/datasheet/2/905/c_NX3225SA_e-1317523.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Supplier 1 URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.mouser.com/ProductDetail/NDK/NX3225SA-16.000M-STD-CRS-2?qs=55YtniHzbhB2yRxaVPeqhg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Supplier 2 URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "https://www.digikey.com/en/products/detail/ndk-america-inc/NX3225SA-16-000M-STD-CRS-2/1788469"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "Supplier 3 URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = "https://www.thegioiic.com/thach-anh-16mhz-5032-4-chan-smd"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Frequency"; Value = "16MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Frequency Stability"; Value = "+/-50ppm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Frequency Tolerance"; Value = "+/-15ppm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Load Capacitance"; Value = "8pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "NDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "NX3225SA-16.000M-STD-CRS-2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-10 to +60degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size"; Value = "CFPX-104/5032"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1 Name"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1 SN"; Value = "344-NX3225SA16MCRS2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1 URL"; Value = "https://www.mouser.com/ProductDetail/NDK/NX3225SA-16.000M-STD-CRS-2?qs=55YtniHzbhB2yRxaVPeqhg%3D%3D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2 Name"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2 SN"; Value = "644-1129-2-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2 URL"; Value = "https://www.digikey.com/en/products/detail/ndk-america-inc/NX3225SA-16-000M-STD-CRS-2/1788469"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3 Name"; Value = "thegioiic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3 SN"; Value = "N/A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 3 URL"; Value = "https://www.thegioiic.com/thach-anh-16mhz-5032-4-chan-smd"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "16MHz"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Y1-2
+Added Pin To Net: NetName=OSC_OUT Pin=Y1-3
+Added Pin To Net: NetName=GND Pin=Y1-4
+Add Differential Pair: Number of nets in differential pair DN is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair DP is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ1_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ1_3 is 1 instead of 2

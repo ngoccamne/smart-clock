@@ -1,6 +1,0 @@
-../Libs/ds3231_i2c.c:11:6:ds3231_i2c_init	1
-../Libs/ds3231_i2c.c:17:9:DecimalToBCD	1
-../Libs/ds3231_i2c.c:22:9:BCDToDecimal	1
-../Libs/ds3231_i2c.c:27:6:ds3231_day_to_text	1
-../Libs/ds3231_i2c.c:32:6:ds3231_read_time	1
-../Libs/ds3231_i2c.c:47:6:ds3231_set_time	1

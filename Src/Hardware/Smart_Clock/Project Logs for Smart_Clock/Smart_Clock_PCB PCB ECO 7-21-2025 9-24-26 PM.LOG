@@ -1,0 +1,12 @@
+Added Component: Designator=D?(LED_0603_Blue)
+Added Component: Designator=R?(RES-SM-0805)
+Add component (AddParameter): Name = "Value"; Value = "300"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D?-2
+Added Net: Name=GND
+Added Pin To Net: NetName=NetD?_1 Pin=D?-1
+Added Pin To Net: NetName=NetD?_1 Pin=R?-2
+Added Net: Name=NetD?_1
+Added Pin To Net: NetName=PC13 Pin=R?-1
+Added Net: Name=PC13
+Added Class: Name=STM32
+Added Room: Name=STM32

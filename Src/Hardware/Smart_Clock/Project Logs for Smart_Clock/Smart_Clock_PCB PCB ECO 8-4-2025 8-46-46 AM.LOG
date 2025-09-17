@@ -1,0 +1,14 @@
+Change Component Designator: OldDesignator=*2 NewDesignator=U5
+Change Component Designator: OldDesignator=*3 NewDesignator=U6
+Change Component Designator: OldDesignator=U6 NewDesignator=U7
+Change Component Designator: OldDesignator=U7 NewDesignator=U8
+Change Component Designator: OldDesignator=U8 NewDesignator=U9
+Change Component Designator: OldDesignator=U9 NewDesignator=U10
+Change Component Designator: OldDesignator=U10 NewDesignator=U11
+Change Component Designator: OldDesignator=U11 NewDesignator=U12
+Change Component Designator: OldDesignator=U12 NewDesignator=U13
+Change Component Designator: OldDesignator=U13 NewDesignator=U14
+Add Differential Pair: Number of nets in differential pair DN is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair DP is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ1_2 is 1 instead of 2
+Add Differential Pair: Number of nets in differential pair NetJ1_3 is 1 instead of 2

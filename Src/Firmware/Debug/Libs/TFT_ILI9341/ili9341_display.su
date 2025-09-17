@@ -1,0 +1,13 @@
+../Libs/TFT_ILI9341/ili9341_display.c:10:6:ILI9341_DrawthickHline	32	static
+../Libs/TFT_ILI9341/ili9341_display.c:18:6:ILI9341_DrawthickVline	32	static
+../Libs/TFT_ILI9341/ili9341_display.c:27:6:send_time_to_ILI9341	152	static
+../Libs/TFT_ILI9341/ili9341_display.c:36:6:send_date_to_ILI9341	152	static
+../Libs/TFT_ILI9341/ili9341_display.c:45:6:send_day_to_ILI9341	40	static
+../Libs/TFT_ILI9341/ili9341_display.c:79:6:ILI9341_DrawCursor	32	static
+../Libs/TFT_ILI9341/ili9341_display.c:102:6:ILI9341_move_cursor	16	static
+../Libs/TFT_ILI9341/ili9341_display.c:152:6:draw_cursor_in_repeat_alarm	32	static
+../Libs/TFT_ILI9341/ili9341_display.c:163:6:move_cursor_down_in_repeat_alarm	24	static
+../Libs/TFT_ILI9341/ili9341_display.c:176:6:move_cursor_up_in_repeat_alarm	24	static
+../Libs/TFT_ILI9341/ili9341_display.c:189:6:adjust_time	24	static
+../Libs/TFT_ILI9341/ili9341_display.c:288:6:select_unselect_the_day	24	static
+../Libs/TFT_ILI9341/ili9341_display.c:390:6:reset_in_set_repeat_alarm	32	static
