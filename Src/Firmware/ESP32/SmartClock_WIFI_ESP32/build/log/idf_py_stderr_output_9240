@@ -1,0 +1,14 @@
+Command: ninja all
+CMake Error at CMakeLists.txt:5 (set):
+  Syntax error in cmake code at
+
+    D:/Project/Smart_Clock/Src/Firmware/ESP32/station/CMakeLists.txt:5
+
+  when parsing string
+
+    libs\wifi
+
+  Invalid character escape '\w'.
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

@@ -1,0 +1,2 @@
+source D:/Project/Smart_Clock/Src/Firmware/ESP32/station/build/bootloader/gdbinit/symbols
+source D:/Project/Smart_Clock/Src/Firmware/ESP32/station/build/bootloader/gdbinit/connect

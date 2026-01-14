@@ -1,0 +1,2 @@
+../Libs/PIR/pir_am312.c:9:6:PIR_AM312_Init	1
+../Libs/PIR/pir_am312.c:15:9:pir_am312_get_data	1
