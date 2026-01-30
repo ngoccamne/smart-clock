@@ -1,4 +1,4 @@
-# Install script for directory: D:/Project/Smart_Clock/Src/Firmware/ESP32/smart-clock
+# Install script for directory: D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_UART_MIN_RINGBUFFER_ESP32
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Project/Smart_Clock/Src/Firmware/ESP32/smart-clock/build/esp-idf/cmake_install.cmake")
+  include("D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_UART_MIN_RINGBUFFER_ESP32/build/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "D:/Project/Smart_Clock/Src/Firmware/ESP32/smart-clock/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_UART_MIN_RINGBUFFER_ESP32/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

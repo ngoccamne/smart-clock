@@ -28,7 +28,9 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  D:/Project/Smart_Clock/Src/Firmware/STM32/SmartClock_PERIPHERAL_STM32/Libs/DS3231/ds3231_i2c.h \
  D:/Project/Smart_Clock/Src/Firmware/STM32/SmartClock_PERIPHERAL_STM32/Libs/PIR/pir_am312.h \
  D:/Project/Smart_Clock/Src/Firmware/STM32/SmartClock_PERIPHERAL_STM32/DELAY/Delay_us.h \
- D:/Project/Smart_Clock/Src/Firmware/STM32/SmartClock_PERIPHERAL_STM32/Libs/DHT11/DHT.h
+ D:/Project/Smart_Clock/Src/Firmware/STM32/SmartClock_PERIPHERAL_STM32/Libs/DHT11/DHT.h \
+ D:/Project/Smart_Clock/Src/Firmware/STM32/SmartClock_PERIPHERAL_STM32/Libs/MIN/min.h \
+ D:/Project/Smart_Clock/Src/Firmware/STM32/SmartClock_PERIPHERAL_STM32/App/UART/uart.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
@@ -60,3 +62,5 @@ D:/Project/Smart_Clock/Src/Firmware/STM32/SmartClock_PERIPHERAL_STM32/Libs/DS323
 D:/Project/Smart_Clock/Src/Firmware/STM32/SmartClock_PERIPHERAL_STM32/Libs/PIR/pir_am312.h:
 D:/Project/Smart_Clock/Src/Firmware/STM32/SmartClock_PERIPHERAL_STM32/DELAY/Delay_us.h:
 D:/Project/Smart_Clock/Src/Firmware/STM32/SmartClock_PERIPHERAL_STM32/Libs/DHT11/DHT.h:
+D:/Project/Smart_Clock/Src/Firmware/STM32/SmartClock_PERIPHERAL_STM32/Libs/MIN/min.h:
+D:/Project/Smart_Clock/Src/Firmware/STM32/SmartClock_PERIPHERAL_STM32/App/UART/uart.h:

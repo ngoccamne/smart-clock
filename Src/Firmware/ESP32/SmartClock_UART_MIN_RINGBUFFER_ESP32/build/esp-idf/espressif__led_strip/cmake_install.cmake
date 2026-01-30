@@ -1,4 +1,4 @@
-# Install script for directory: D:/Project/Smart_Clock/Src/Firmware/ESP32/smart-clock/managed_components/espressif__led_strip
+# Install script for directory: D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_UART_MIN_RINGBUFFER_ESP32/managed_components/espressif__led_strip
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

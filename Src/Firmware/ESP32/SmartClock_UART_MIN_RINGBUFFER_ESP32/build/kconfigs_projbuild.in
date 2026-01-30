@@ -3,4 +3,4 @@ source "C:/Users/NGOC CAM/esp/v5.5/esp-idf/components/esp_app_format/Kconfig.pro
 source "C:/Users/NGOC CAM/esp/v5.5/esp-idf/components/esp_rom/Kconfig.projbuild"
 source "C:/Users/NGOC CAM/esp/v5.5/esp-idf/components/esptool_py/Kconfig.projbuild"
 source "C:/Users/NGOC CAM/esp/v5.5/esp-idf/components/partition_table/Kconfig.projbuild"
-source "D:/Project/Smart_Clock/Src/Firmware/ESP32/smart-clock/main/Kconfig.projbuild"
+source "D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_UART_MIN_RINGBUFFER_ESP32/main/Kconfig.projbuild"

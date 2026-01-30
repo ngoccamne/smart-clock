@@ -1,6 +1,6 @@
 /* Automatically generated file; DO NOT EDIT */
 /* Espressif IoT Development Framework Linker Script */
-/* Generated from: D:\Project\Smart_Clock\Src\Firmware\ESP32\smart-clock\build\esp-idf\esp_system\ld\sections.ld.in */
+/* Generated from: D:\Project\Smart_Clock\Src\Firmware\ESP32\SmartClock_UART_MIN_RINGBUFFER_ESP32\build\esp-idf\esp_system\ld\sections.ld.in */
 
 /*
 

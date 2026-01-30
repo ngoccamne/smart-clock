@@ -16,6 +16,7 @@
 #define UART_PORT_NUM      UART_NUM_1
 #define TXD_PIN           (GPIO_NUM_17)
 #define RXD_PIN           (GPIO_NUM_16)
+#define LED_PIN           (GPIO_NUM_2)
 #define UART_BAUD_RATE    (115200)
 #define BUF_SIZE          (1024)
 
@@ -53,6 +54,13 @@ void min_application_handler(uint8_t min_id, uint8_t const *payload, uint8_t len
     {
         case 0x02: // ID nhận từ STM32
             printf("NHAN TU STM32: Gia tri = %d\n", payload[0]);
+ 
+            if (len > 0) {
+                uint8_t command = payload[0]; 
+                // CONTROL LED
+                gpio_set_level(LED_PIN, command);  
+        
+            }
             break;
             
         case 0x01: // ID tự gửi (nếu có loopback test)
@@ -101,16 +109,17 @@ uint32_t min_time_ms(void)
 
 void app_main(void)
 {
+    gpio_set_direction(LED_PIN, GPIO_MODE_OUTPUT);
     init_uart();
     min_init_context(&min_ctx, 0);
     xTaskCreate(uart_receive_task, "uart_rx_task", 4096, NULL, 10, NULL);
     
-    uint8_t count = 0;
+    uint8_t stm32_led_cmd = 1;
     while(1) {
-        count++;
+        stm32_led_cmd = !stm32_led_cmd;
         
-        //min_send_frame(&min_ctx, 0x01, &count, 1);
-        //printf("Da gui count: %d sang STM32\n", count);
+        min_send_frame(&min_ctx, 0x01, &stm32_led_cmd, 1);
+        printf("Da gui lenh dieu khien led: %d sang STM32\n", stm32_led_cmd);
         
         vTaskDelay(pdMS_TO_TICKS(2000));
     }

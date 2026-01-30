@@ -99,10 +99,22 @@ uint32_t min_time_ms(void)
 void min_application_handler(uint8_t min_id, uint8_t const *min_payload,
 		                     uint8_t len_payload, uint8_t port)
 {
-	if (min_id == 0x01)
+	switch (min_id)
+	{
+		case 0x05: // LED COMMAND
+	    if (len_payload > 0)
 	    {
-	        HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
-	    }
+	    	if (min_payload[0] == 1)
+	    	{
+	    		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_SET);
+	        }
+	    	else
+	    	{
+	    		HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
+	        }
+	     }
+	     break;
+	 }
 }
 
 /* USER CODE END 0 */
@@ -156,18 +168,16 @@ int main(void)
 	          min_poll(&min_ctx, &rx_byte, 1);
 	      }
 
-//	  uint8_t buff[] = {0x02};
-//	  min_send_frame(&min_ctx, 0, buff, sizeof(buff));
-//	  HAL_Delay(1000);
-
-	  static uint32_t last_time = 0;
-	      if(HAL_GetTick() - last_time > 1000) // Gửi mỗi 1 giây
-	      {
-	          uint8_t buff[] = {0x55}; // Gửi con số 85 (0x55) sang ESP32
-	          // Gửi với ID = 0x02 để ESP32 nhận diện đúng
-	          min_send_frame(&min_ctx, 0x02, buff, sizeof(buff));
-	          last_time = HAL_GetTick();
-	      }
+//	  static uint32_t last_time = 0;
+//	  static uint8_t led_state = 0;
+//
+//	  if(HAL_GetTick() - last_time > 1000) // Gửi mỗi 1 giây
+//	  {
+//	      led_state = !led_state;
+//	      // Gửi ID 0x02
+//	      min_send_frame(&min_ctx, 0x02, &led_state, 1);
+//	      last_time = HAL_GetTick();
+//	  }
 
   }
   /* USER CODE END 3 */

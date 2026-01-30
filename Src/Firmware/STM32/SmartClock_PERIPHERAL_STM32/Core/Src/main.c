@@ -25,6 +25,8 @@
 #include "pir_am312.h"
 #include "Delay_us.h"
 #include "DHT.h"
+#include "min.h"
+#include "uart.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -34,7 +36,9 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define DS3231_ID  		0x00
+#define PIR_ID     		0x01
+#define DHT11_ID        0x02
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -205,17 +209,17 @@ int main(void)
 		  ds3231[4] = time_ds3231.date;
 		  ds3231[5] = time_ds3231.month;
 		  ds3231[6] = time_ds3231.year;
-	 	  min_send_frame(&min_ctx, 0x00, ds3231, sizeof(ds3231));
+	 	  min_send_frame(&min_ctx, DS3231_ID, ds3231, sizeof(ds3231));
 
 	 	  // Send data of PIR to ESP32
 	 	  uint8_t pir_buff[1] = {pir};
-	 	  min_send_frame(&min_ctx, 0x01, pir_buff, 1);
+	 	  min_send_frame(&min_ctx, PIR_ID, pir_buff, 1);
 
 	 	  // Send data of DHT11 to ESP32
 	 	  uint8_t dht11[2];
 	 	  dht11[0] = hdht.huminity;
 	 	  dht11[1] = hdht.temperature;
-	 	  min_send_frame(&min_ctx, 0x02, dht11, sizeof(dht11));
+	 	  min_send_frame(&min_ctx, DHT11_ID, dht11, sizeof(dht11));
 
 	 	  last_time = HAL_GetTick();
 	 }

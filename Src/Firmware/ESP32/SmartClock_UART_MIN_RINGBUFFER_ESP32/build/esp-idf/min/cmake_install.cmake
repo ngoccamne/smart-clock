@@ -1,4 +1,4 @@
-# Install script for directory: D:/Project/Smart_Clock/Src/Firmware/ESP32/smart-clock/libs/min
+# Install script for directory: D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_UART_MIN_RINGBUFFER_ESP32/libs/min
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

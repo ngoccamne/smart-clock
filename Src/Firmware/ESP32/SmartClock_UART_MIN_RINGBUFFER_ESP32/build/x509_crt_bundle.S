@@ -1,4 +1,4 @@
-/* * Data converted from D:/Project/Smart_Clock/Src/Firmware/ESP32/smart-clock/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_UART_MIN_RINGBUFFER_ESP32/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)
