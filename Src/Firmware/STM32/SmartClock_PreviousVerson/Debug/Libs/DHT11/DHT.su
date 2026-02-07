@@ -1,7 +1,0 @@
-../Libs/DHT11/DHT.c:9:13:DHT_Set_Pin_Output	32	static
-../Libs/DHT11/DHT.c:17:13:DHT_Set_Pin_Input	32	static
-../Libs/DHT11/DHT.c:25:13:DHT_Start	16	static
-../Libs/DHT11/DHT.c:32:16:DHT_Check_Response	24	static
-../Libs/DHT11/DHT.c:54:16:DHT_Read	32	static
-../Libs/DHT11/DHT.c:83:6:DHT_Init	24	static
-../Libs/DHT11/DHT.c:91:9:DHT_Read_Value	24	static

@@ -1,4 +1,0 @@
-../App/UART/uart.c:15:6:uart_init	8	static
-../App/UART/uart.c:20:6:receive_rx	16	static
-../App/UART/uart.c:25:10:uart_available	8	static
-../App/UART/uart.c:30:9:uart_read	16	static
