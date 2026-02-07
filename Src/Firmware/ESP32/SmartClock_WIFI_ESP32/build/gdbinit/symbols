@@ -18,8 +18,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file D:/Project/Smart_Clock/Src/Firmware/ESP32/station/build/bootloader/bootloader.elf
+    add-symbol-file D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_WIFI_ESP32/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file D:/Project/Smart_Clock/Src/Firmware/ESP32/station/build/wifi_station.elf
+file D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_WIFI_ESP32/build/wifi_station.elf

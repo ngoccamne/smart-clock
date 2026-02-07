@@ -1,0 +1,4 @@
+../App/UART/uart.c:15:6:uart_init	1
+../App/UART/uart.c:20:6:receive_rx	1
+../App/UART/uart.c:25:10:uart_available	1
+../App/UART/uart.c:30:9:uart_read	1

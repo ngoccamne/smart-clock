@@ -5,7 +5,7 @@
   "idf.openOcdConfigs": [
     "board/esp32-wrover-kit-3.3v.cfg"
   ],
-  "idf.portWin": "detect",
+  "idf.portWin": "COM8",
   "idf.toolsPathWin": "C:\\Espressif",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32"
@@ -15,5 +15,6 @@
     "--background-index",
     "--query-driver=**",
     "--compile-commands-dir=d:\\Project\\Smart_Clock\\Src\\Firmware\\ESP32\\SmartClock_v1.0_ESP32\\build"
-  ]
+  ],
+  "idf.currentSetup": "C:\\Users\\NGOC CAM\\esp\\v5.5\\esp-idf"
 }

@@ -10,18 +10,18 @@ if(NOT EXISTS "C:/Users/NGOC CAM/esp/v5.5/esp-idf/components/bootloader/subproje
   file(MAKE_DIRECTORY "C:/Users/NGOC CAM/esp/v5.5/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "D:/Project/Smart_Clock/Src/Firmware/ESP32/station/build/bootloader"
-  "D:/Project/Smart_Clock/Src/Firmware/ESP32/station/build/bootloader-prefix"
-  "D:/Project/Smart_Clock/Src/Firmware/ESP32/station/build/bootloader-prefix/tmp"
-  "D:/Project/Smart_Clock/Src/Firmware/ESP32/station/build/bootloader-prefix/src/bootloader-stamp"
-  "D:/Project/Smart_Clock/Src/Firmware/ESP32/station/build/bootloader-prefix/src"
-  "D:/Project/Smart_Clock/Src/Firmware/ESP32/station/build/bootloader-prefix/src/bootloader-stamp"
+  "D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_WIFI_ESP32/build/bootloader"
+  "D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_WIFI_ESP32/build/bootloader-prefix"
+  "D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_WIFI_ESP32/build/bootloader-prefix/tmp"
+  "D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_WIFI_ESP32/build/bootloader-prefix/src/bootloader-stamp"
+  "D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_WIFI_ESP32/build/bootloader-prefix/src"
+  "D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_WIFI_ESP32/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "D:/Project/Smart_Clock/Src/Firmware/ESP32/station/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_WIFI_ESP32/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "D:/Project/Smart_Clock/Src/Firmware/ESP32/station/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_WIFI_ESP32/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

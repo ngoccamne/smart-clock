@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Project/Smart_Clock/Src/Firmware/ESP32/station/build/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
+  include("D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_WIFI_ESP32/build/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Project/Smart_Clock/Src/Firmware/ESP32/station/build/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
+  include("D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_WIFI_ESP32/build/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
 endif()
 

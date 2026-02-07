@@ -1,4 +1,4 @@
-# Install script for directory: D:/Project/Smart_Clock/Src/Firmware/ESP32/station/libs/wifi
+# Install script for directory: D:/Project/Smart_Clock/Src/Firmware/ESP32/SmartClock_WIFI_ESP32/libs/wifi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
