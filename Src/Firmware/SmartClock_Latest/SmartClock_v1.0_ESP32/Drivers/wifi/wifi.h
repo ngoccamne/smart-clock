@@ -13,9 +13,9 @@
 #include "lwip/err.h"
 #include "lwip/sys.h"
 
-#define ESP_WIFI_SSID   "PIF_CLUB"
-#define ESP_WIFI_PASS   "chinsochin"
-#define ESP_MAXIMUM_RETRY  5
+#define ESP_WIFI_SSID     "PIF_CLUB"
+#define ESP_WIFI_PASS     "chinsochin"
+#define ESP_MAXIMUM_RETRY 5
 
 void wifi_init_sta(void);
 

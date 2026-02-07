@@ -2,14 +2,14 @@
 
 static struct _pir_am312_device
 {
-	GPIO_TypeDef* port;
-	uint16_t pin;
-}pir_am312_device;
+    GPIO_TypeDef *port;
+    uint16_t      pin;
+} pir_am312_device;
 
-void PIR_AM312_Init(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
+void PIR_AM312_Init(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin)
 {
     pir_am312_device.port = GPIOx;
-    pir_am312_device.pin = GPIO_Pin;
+    pir_am312_device.pin  = GPIO_Pin;
 }
 
 uint8_t pir_am312_get_data(void)
