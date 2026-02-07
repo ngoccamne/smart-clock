@@ -1,0 +1,4 @@
+../Libs/RingBuffer/RingBuffer.c:10:9:ring_buffer_push	24	static
+../Libs/RingBuffer/RingBuffer.c:29:9:ring_buffer_pop	24	static
+../Libs/RingBuffer/RingBuffer.c:48:6:ring_buffer_init	24	static
+../Libs/RingBuffer/RingBuffer.c:56:10:ring_buffer_available	16	static
