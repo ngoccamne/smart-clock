@@ -25,23 +25,23 @@
  *      DEFINES
  *********************/
 
-#define UART_PORT_NUM      UART_NUM_1
-#define TXD_PIN           (GPIO_NUM_17)
-#define RXD_PIN           (GPIO_NUM_16)
-#define LED_PIN           (GPIO_NUM_2)
-#define UART_BAUD_RATE    (115200)
-#define BUF_SIZE          (1024)
+#define UART_PORT_NUM  UART_NUM_1
+#define TXD_PIN        (GPIO_NUM_17)
+#define RXD_PIN        (GPIO_NUM_16)
+#define LED_PIN        (GPIO_NUM_2)
+#define UART_BAUD_RATE (115200)
+#define BUF_SIZE       (1024)
 
-#define LED_CONTROL_ID    0x05
-#define DS3231_ID         0x00
-#define PIR_ID               0x01
-#define DHT11_ID            0x02
+#define LED_CONTROL_ID 0x05
+#define DS3231_ID      0x00
+#define PIR_ID         0x01
+#define DHT11_ID       0x02
 
 /**********************
  *     VARIABLES
  **********************/
 
-struct min_context min_ctx; 
+struct min_context       min_ctx;
 esp_mqtt_client_handle_t client;
 
 /**********************
@@ -53,47 +53,55 @@ static const char *TAG = "MAIN_APP";
 /**********************
  *     FUNCTION
  **********************/
-void led_control_stm32(char *data, int len);
-void min_tx_start(uint8_t port);
-void min_tx_finished(uint8_t port);
+void     led_control_stm32(char *data, int len);
+void     min_tx_start(uint8_t port);
+void     min_tx_finished(uint8_t port);
 uint16_t min_tx_space(uint8_t port);
-void min_tx_byte(uint8_t port, uint8_t byte);
-void init_uart();
-void uart_receive_task(void *arg);
+void     min_tx_byte(uint8_t port, uint8_t byte);
+void     init_uart();
+void     uart_receive_task(void *arg);
 uint32_t min_time_ms(void);
 
-void min_application_handler(uint8_t min_id, uint8_t const *payload, uint8_t len, uint8_t port) {
+void min_application_handler(uint8_t min_id, uint8_t const *payload, uint8_t len, uint8_t port)
+{
     printf("ID: %d, Len: %d\n", min_id, len);
 
-    switch (min_id) 
+    switch (min_id)
     {
-        case DS3231_ID: 
-            if (len >= 7) 
+        case DS3231_ID:
+            if (len >= 7)
             {
                 char ds3231[100];
 
-                sprintf(ds3231, "{\"hour\":%d,\"minute\":%d,\"second\":%d,\"day\":%d,\"date\":%d,\"month\":%d,\"year\":%d}", 
-                payload[0], payload[1], payload[2], payload[3], payload[4], payload[5], payload[6]);
+                sprintf(ds3231,
+                        "{\"hour\":%d,\"minute\":%d,\"second\":%d,\"day\":%d,\"date\":%d,\"month\":%d,\"year\":%d}",
+                        payload[0],
+                        payload[1],
+                        payload[2],
+                        payload[3],
+                        payload[4],
+                        payload[5],
+                        payload[6]);
 
                 esp_mqtt_client_publish(client, "smartclock/stm32/ds3231", ds3231, 0, 1, 0);
             }
             break;
 
         case PIR_ID:
-            if (len >= 1) 
+            if (len >= 1)
             {
-                char str_pir[10];
+                char    str_pir[10];
                 uint8_t pir = payload[0];
-            
+
                 printf("PIR:  %d", pir);
 
                 sprintf(str_pir, "%d", pir);
                 esp_mqtt_client_publish(client, "smartclock/stm32/pir", str_pir, 0, 1, 0);
             }
             break;
-        
+
         case DHT11_ID:
-            if (len >= 2) 
+            if (len >= 2)
             {
                 char dht11[30];
                 sprintf(dht11, "{\"hum\":%d,\"temp\":%d}", payload[0], payload[1]);
@@ -102,11 +110,11 @@ void min_application_handler(uint8_t min_id, uint8_t const *payload, uint8_t len
                 esp_mqtt_client_publish(client, "smartclock/stm32/dht11", dht11, 0, 1, 0);
             }
             break;
-        
+
         case 0x05: // ID tự gửi (nếu có loopback test)
             // printf("ESP32 nhan lai goi tin cua chinh mình\n");
             break;
-            
+
         default:
             printf("Nhan goi tin la ID: %d\n", min_id);
             break;
@@ -169,30 +177,30 @@ void led_control_stm32(char *data, int len)
 
 void min_tx_start(uint8_t port)
 {
-
 }
 
 void min_tx_finished(uint8_t port)
 {
-
 }
 
 uint16_t min_tx_space(uint8_t port)
 {
-	return 512;
+    return 512;
 }
 
-void min_tx_byte(uint8_t port, uint8_t byte) {
-    uart_write_bytes(UART_PORT_NUM, (const char*)&byte, 1);
+void min_tx_byte(uint8_t port, uint8_t byte)
+{
+    uart_write_bytes(UART_PORT_NUM, (const char *)&byte, 1);
 }
 
-void init_uart() {
+void init_uart()
+{
     const uart_config_t uart_config = {
-        .baud_rate = UART_BAUD_RATE,
-        .data_bits = UART_DATA_8_BITS,
-        .parity = UART_PARITY_DISABLE,
-        .stop_bits = UART_STOP_BITS_1,
-        .flow_ctrl = UART_HW_FLOWCTRL_DISABLE,
+        .baud_rate  = UART_BAUD_RATE,
+        .data_bits  = UART_DATA_8_BITS,
+        .parity     = UART_PARITY_DISABLE,
+        .stop_bits  = UART_STOP_BITS_1,
+        .flow_ctrl  = UART_HW_FLOWCTRL_DISABLE,
         .source_clk = UART_SCLK_DEFAULT,
     };
     uart_driver_install(UART_PORT_NUM, BUF_SIZE * 2, 0, 0, NULL, 0);
@@ -200,12 +208,15 @@ void init_uart() {
     uart_set_pin(UART_PORT_NUM, TXD_PIN, RXD_PIN, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
 }
 
-void uart_receive_task(void *arg) {
-    uint8_t *data = (uint8_t *) malloc(BUF_SIZE);
-    while (1) {
+void uart_receive_task(void *arg)
+{
+    uint8_t *data = (uint8_t *)malloc(BUF_SIZE);
+    while (1)
+    {
         int len = uart_read_bytes(UART_PORT_NUM, data, BUF_SIZE, pdMS_TO_TICKS(10));
-        
-        if (len > 0) {
+
+        if (len > 0)
+        {
             min_poll(&min_ctx, data, (uint32_t)len);
         }
     }
