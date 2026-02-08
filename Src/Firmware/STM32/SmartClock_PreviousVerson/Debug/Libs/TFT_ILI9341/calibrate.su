@@ -1,2 +1,0 @@
-../Libs/TFT_ILI9341/calibrate.c:28:5:setCalibrationMatrix	32	static
-../Libs/TFT_ILI9341/calibrate.c:132:5:getDisplayPoint	32	static
