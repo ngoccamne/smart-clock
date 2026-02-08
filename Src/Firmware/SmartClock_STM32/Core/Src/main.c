@@ -26,6 +26,7 @@
 #include "Delay_us.h"
 #include "DHT.h"
 #include "min.h"
+#include "min_port.h"
 #include "uart.h"
 /* USER CODE END Includes */
 

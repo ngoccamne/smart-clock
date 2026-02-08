@@ -29,4 +29,11 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Middleware/target</name>
+			<type>2</type>
+			<location>D:/Project/Smart_Clock/Src/Firmware/Third_Party/MIN/target</location>
+		</link>
+	</linkedResources>
 </projectDescription>
