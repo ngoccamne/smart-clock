@@ -1,6 +1,3 @@
-[submodule "Src/Firmware/SmartClock_Latest/SmartClock_v1.0_STM32/Libs/MIN"]
-	path = Src/Firmware/SmartClock_Latest/SmartClock_v1.0_STM32/Libs/MIN
-	url = https://github.com/min-protocol/min.git
-[submodule "Src/Firmware/SmartClock_Latest/SmartClock_v1.0_ESP32/Drivers/min"]
-	path = Src/Firmware/SmartClock_Latest/SmartClock_v1.0_ESP32/Drivers/min
+[submodule "Src/Firmware/Third_Party/MIN"]
+	path = Src/Firmware/Third_Party/MIN
 	url = https://github.com/min-protocol/min
